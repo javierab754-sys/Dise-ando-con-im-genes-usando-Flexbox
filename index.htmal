@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Gumball y Darwin - Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fila 1: Gumball -->
+    <div class="fila" id="fila-gumball">
+        <img src="img/gumball1.png" alt="Gumball 1">
+        <img src="img/gumball2.png" alt="Gumball 2">
+        <img src="img/gumball3.png" alt="Gumball 3">
+    </div>
+
+    <!-- Fila 2: Darwin -->
+    <div class="fila" id="fila-darwin">
+        <img src="img/darwin1.png" alt="Darwin 1">
+        <img src="img/darwin2.png" alt="Darwin 2">
+        <img src="img/darwin3.png" alt="Darwin 3">
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Imágenes sacadas de internet - El increíble mundo de Gumball</p>
+    </footer>
+
+</body>
+</html>

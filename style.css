@@ -1,0 +1,41 @@
+/* Estilo general para todas las filas usando Flexbox */
+.fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #333;
+}
+
+/* Colores distintos para cada fila */
+#fila-gumball {
+    background-color: #87CEEB; /* Celeste */
+}
+
+#fila-darwin {
+    background-color: #FFA500; /* Naranja */
+}
+
+/* Dar el mismo tamaño, bordes y separación a todas las imágenes */
+img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: 0 15px;
+    padding: 5px;
+    background-color: white;
+    border: 2px dashed #000;
+    border-radius: 8px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #2E8B57; /* Verde */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
